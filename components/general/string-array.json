@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_general_string_arrays",
+  "info": {
+    "name": "string_array",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

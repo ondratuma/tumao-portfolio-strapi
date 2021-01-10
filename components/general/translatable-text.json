@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_translatable_texts",
+  "info": {
+    "name": "translatable_text",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "richtext"
+    },
+    "cs": {
+      "type": "richtext"
+    }
+  }
+}

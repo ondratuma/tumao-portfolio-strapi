@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_translatable_strings",
+  "info": {
+    "name": "translatable_string",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "string"
+    },
+    "cs": {
+      "type": "string"
+    }
+  }
+}

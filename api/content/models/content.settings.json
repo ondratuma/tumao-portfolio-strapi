@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "contents",
+  "info": {
+    "name": "Content",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "my_traits": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.translatable-string"
+    },
+    "contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.contact"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.form"
+    },
+    "first_page_pre": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.translatable-string"
+    },
+    "pages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.page"
+    },
+    "first_page_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

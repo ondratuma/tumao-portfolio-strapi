@@ -1,0 +1,9 @@
+{
+  "collectionName": "components_general_cron_jobs",
+  "info": {
+    "name": "Cron job",
+    "icon": "cloud-upload-alt"
+  },
+  "options": {},
+  "attributes": {}
+}

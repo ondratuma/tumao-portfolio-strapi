@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_general_forms",
+  "info": {
+    "name": "form",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lambda_url": {
+      "type": "string"
+    },
+    "email_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.translatable-string"
+    },
+    "message_label": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.translatable-string"
+    },
+    "button_labels": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.translatable-string"
+    }
+  }
+}

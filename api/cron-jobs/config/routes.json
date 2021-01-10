@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cron-jobs",
+      "handler": "cron-jobs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cron-jobs/count",
+      "handler": "cron-jobs.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/cron-jobs/:id",
+      "handler": "cron-jobs.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/cron-jobs",
+      "handler": "cron-jobs.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cron-jobs/:id",
+      "handler": "cron-jobs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cron-jobs/:id",
+      "handler": "cron-jobs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

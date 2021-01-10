@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cron_jobs",
+  "info": {
+    "name": "Cron jobs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "urls": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.string-array"
+    }
+  }
+}

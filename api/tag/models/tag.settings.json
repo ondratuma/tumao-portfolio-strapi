@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tags",
+  "info": {
+    "name": "Tag",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "projects": {
+      "via": "tags",
+      "collection": "project"
+    },
+    "name": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.translatable-string"
+    }
+  }
+}

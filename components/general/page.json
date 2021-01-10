@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_pages",
+  "info": {
+    "name": "page",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.translatable-string"
+    }
+  }
+}
