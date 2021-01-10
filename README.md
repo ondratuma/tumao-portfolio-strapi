@@ -7,7 +7,7 @@
 
 1. Deploy strapi:
 
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/ondratuma/tumao-portfolio-strapi/tree/master)
+[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/ondratuma/tumao-portfolio-strapi/tree/main)
 
 2. Add content in strapi
 

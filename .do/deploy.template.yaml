@@ -3,8 +3,10 @@ spec:
   services:
     - name: strapi
       git:
-        branch: master
+        branch: main
         repo_clone_url: https://github.com/ondratuma/tumao-portfolio-strapi
+      build_command: yarn build
+      run_command: yarn start
       envs:
         - key: STRAPI_URL
           value: ${APP_URL}
